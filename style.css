@@ -1,0 +1,62 @@
+.div1{
+    color: salmon;
+}
+
+.div2{
+
+    text-decoration:underline;
+}
+
+.div4{
+    text-decoration: underline;
+}
+#contact{
+
+    text-align: left;
+    background-color: aliceblue;
+    height: inherit;
+    width: 300px;
+}
+#goal{
+
+    color:darkorange;
+}
+.link
+{
+    background-color: rgb(222, 247, 179);
+    width: 100px;
+    text-align: left;
+}
+
+#aboutMe{
+    color:coral
+}
+
+a:link{
+    text-decoration: underline;
+}
+a:visited{
+    text-decoration: line-through;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(84, 203, 88);
+    margin: 0 auto;
+    animation-duration: 2s;
+    border-radius: 50%;
+    
+}
+.bounce{
+    animation-name: bounce;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes bounce{
+    0%{transform: translateX(0);}
+    50%{transform: translateX(-200px);}
+    100%{transform: translateX(0);}
+}
